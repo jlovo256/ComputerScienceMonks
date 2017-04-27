@@ -17,7 +17,12 @@
     <IncludeDebugInformation>false</IncludeDebugInformation>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="controller.php" />
+    <Compile Include="createdb.php" />
     <Compile Include="index.php" />
+    <Compile Include="login.php" />
+    <Compile Include="model.php" />
+    <Compile Include="view.php" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Assets\" />
@@ -26,5 +31,8 @@
     <Content Include="Assets\medievalmonks.jpg" />
     <Content Include="Assets\monksdifferentorders1.jpg" />
     <Content Include="Assets\Normans_Bayeux.jpg" />
+    <Content Include="monkstyles.css" />
+    <Content Include="readme.txt" />
+    <Content Include="references.txt" />
   </ItemGroup>
 </Project>

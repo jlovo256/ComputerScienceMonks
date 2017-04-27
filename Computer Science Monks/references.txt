@@ -1,0 +1,35 @@
+
+
+https://designschool.canva.com/blog/website-color-schemes/
+http://www.awwwards.com/sites/bird-by-muv-interactive
+Color and design inspiration
+
+http://vswebessentials.com/features/stylesheets
+For pretty style sheets
+
+http://wisdomspearl.deviantart.com/art/Color-Palette-Medieval-298891621
+color palette
+
+http://www.bl.uk/onlinegallery/onlineex/illmanus/index.html
+https://en.wikipedia.org/wiki/Bayeux_Tapestry_tituli
+images
+
+http://getbootstrap.com/css/
+For using bootstrap
+
+http://www.w3schools.com/
+Always helpful for css
+
+http://php.net/manual/en/index.php
+For PHP help.
+
+Through Safari Online:
+
+PHP Cookbook: Solutions and Examples for PHP Programmers, O'Reilly Books
+For php stuff.
+
+MySQL Cookbook: Solutions for Database Developers and Administrators, O'Reilly Books
+For mysql stuff.
+
+Learning PHP, MySQL & JavaScript: With jQuery, CSS & HTML5 (Learning Php, Mysql, Javascript, Css & Html5), O'Reilly Books
+For php and mysql stuff.

@@ -1,0 +1,93 @@
+﻿body
+{
+    background-color: #3d2c12;
+    font-family: 'MedievalSharp', cursive, "Goudy Old Style",Garamond,"Big Caslon","Times New Roman", serif;
+    color: #28313a;
+}
+
+header
+{
+    background-color: #d1b77a;
+}
+
+footer
+{
+    background-color: #053a70;
+    color: #c95140;
+}
+
+table
+{
+    background-color: #d3c8b4;
+}
+
+input
+{
+    border: none;
+    background-color: #d3c8b4;
+}
+
+input:hover
+{
+    background-color: #ccbea3;
+}
+
+/*For adding padding on the top*/
+.topPad
+{
+    padding-top: 20px;
+}
+
+/*For adding padding on the left*/
+.leftPad
+{
+    padding-left: 20px;
+}
+
+/*For adding padding on the right*/
+.rightPad
+{
+    padding-right: 20px;
+}
+
+/*For adding padding on the bottom*/
+.bottomPad
+{
+    padding-bottom: 20px;
+}
+
+/*For padding all aroung*/
+.allPad
+{
+    padding: 20px;
+}
+
+
+/*Adds a fancy Google font to University of Virginia*/
+#oldeUni
+{
+    font-family: 'UnifrakturMaguntia', "Goudy Old Style",Garamond,"Big Caslon","Times New Roman", serif;
+    color: #ad3f26;
+}
+
+
+/*Style for the outer wrapper*/
+#wrapper
+{
+    background-color: #ccbea3;
+}
+
+#innerwrapper
+{
+    background-color: #d3c8b4
+}
+
+#bottomInfo
+{
+    background: inherit;
+}
+
+#difformonks
+{
+    width:auto;
+}
