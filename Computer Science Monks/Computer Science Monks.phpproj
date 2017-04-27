@@ -19,4 +19,12 @@
   <ItemGroup>
     <Compile Include="index.php" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\medievalmonks.jpg" />
+    <Content Include="Assets\monksdifferentorders1.jpg" />
+    <Content Include="Assets\Normans_Bayeux.jpg" />
+  </ItemGroup>
 </Project>
