@@ -8,7 +8,7 @@
  * @author Jamie Tudor
  */
 
-$device = 'mysql:dbname=monks;port=3307';
+$device = 'mysql:host=localhost;dbname=monks';
 $host = "localhost";
 $port = 3307;
 $socket = "/var/run/mysqld/mysqld.sock";
