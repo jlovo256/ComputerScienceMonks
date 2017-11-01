@@ -8,10 +8,10 @@
  * @author Jamie Tudor
  */
 
-$device = 'mysql:dbname=hw3;port=3307';
+$device = 'mysql:dbname=monks;port=3307';
 $host = "localhost";
 $port = 3307;
 $socket = "/var/run/mysqld/mysqld.sock";
 $user = "dbuser";
-$password = "scriptkiddies45";
+$password = "applesAndOranges";
 $dbname = "monks";
