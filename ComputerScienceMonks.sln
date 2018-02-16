@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "Computer Science Monks", "Computer Science Monks\Computer Science Monks.phpproj", "{05EB87D2-2A6A-4742-94E7-78479773FF63}"
+Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "ComputerScienceMonks", "ComputerScienceMonks\ComputerScienceMonks.phpproj", "{05EB87D2-2A6A-4742-94E7-78479773FF63}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
