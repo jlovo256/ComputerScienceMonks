@@ -46,7 +46,7 @@
                     </div><!-- END ROW-->
                 </div>
 
-                <img src="Assets/medievalmonks.jpg" class="hidden-xs hidden-sm col-md-4 col-lg-4 hidden-print" alt="Medieval Monks" />
+                <img src="imgs/medievalmonks.jpg" class="hidden-xs hidden-sm col-md-4 col-lg-4 hidden-print" alt="Medieval Monks" />
 
             </div><!-- END ROW-->
         </header>
@@ -230,7 +230,7 @@
             <div class="row">
 
                 <div class="hidden-xs hidden-sm col-md-offset-2 col-md-7 col-lg-offset-2 col-lg-7 topPad bottomPad">
-                    <img src="Assets/Normans_Bayeux.jpg" alt="Bayeux Trapestry" />
+                    <img src="imgs/Normans_Bayeux.jpg" alt="Bayeux Trapestry" />
                 </div>
 
             </div><!-- END ROW-->
@@ -245,7 +245,7 @@
             <div class="row">
 
                 <div class="hidden-xs hidden-sm col-md-3 col-lg-3 hidden-print allPad">
-                    <img src="Assets/monksdifferentorders1.jpg" class="img-rounded" alt="Different orders of monks" id="difformonks" />
+                    <img src="imgs/monksdifferentorders1.jpg" class="img-rounded" alt="Different orders of monks" id="difformonks" />
                 </div>
 
                 <div class="col-md-7 allPad" id="bottomInfo">
