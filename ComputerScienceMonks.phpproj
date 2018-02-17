@@ -23,7 +23,6 @@
     <Compile Include="ComputerScienceMonks\controller.php" />
     <Compile Include="ComputerScienceMonks\createdb.php" />
     <Compile Include="ComputerScienceMonks\index.php" />
-    <Compile Include="ComputerScienceMonks\loginWin.php" />
     <Compile Include="ComputerScienceMonks\model.php" />
     <Compile Include="ComputerScienceMonks\monkstyles.css" />
     <Compile Include="ComputerScienceMonks\readme.txt" />
