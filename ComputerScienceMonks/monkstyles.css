@@ -10,6 +10,11 @@ header
     background-color: #d1b77a;
 }
 
+main 
+{
+    background-color: #d3c8b4;
+}
+
 footer
 {
     background-color: #053a70;
@@ -32,36 +37,6 @@ input:hover
     background-color: #ccbea3;
 }
 
-/*For adding padding on the top*/
-.topPad
-{
-    padding-top: 20px;
-}
-
-/*For adding padding on the left*/
-.leftPad
-{
-    padding-left: 20px;
-}
-
-/*For adding padding on the right*/
-.rightPad
-{
-    padding-right: 20px;
-}
-
-/*For adding padding on the bottom*/
-.bottomPad
-{
-    padding-bottom: 20px;
-}
-
-/*For padding all aroung*/
-.allPad
-{
-    padding: 20px;
-}
-
 
 /*Adds a fancy Google font to University of Virginia*/
 #oldeUni
@@ -70,24 +45,25 @@ input:hover
     color: #ad3f26;
 }
 
-
-/*Style for the outer wrapper*/
-#wrapper
-{
-    background-color: #ccbea3;
-}
-
-#innerwrapper
-{
-    background-color: #d3c8b4
-}
-
-#bottomInfo
-{
-    background: inherit;
+/* Adds color to the navbar */
+.navColor {
+    background-color: #f8f8f8;
 }
 
 #difformonks
 {
     width:auto;
 }
+
+/*
+    Colors:
+    #3d2c12;
+    #d1b77a;
+    #053a70;
+    #d3c8b4;
+    #ccbea3;
+    #d3c8b4;
+
+    #f8f8f8
+
+*/
