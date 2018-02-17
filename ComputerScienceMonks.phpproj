@@ -1,0 +1,40 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>ComputerScienceMonks</Name>
+    <ProjectGuid>{a444820d-8fa6-4864-8654-c69c2d5c3135}</ProjectGuid>
+    <RootNamespace>
+    </RootNamespace>
+    <OutputType>Library</OutputType>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+    <SpecificPageValue>ComputerScienceMonks/index.php</SpecificPageValue>
+    <StartAction>SpecificPage</StartAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="ComputerScienceMonks\img\medievalmonks.jpg" />
+    <Compile Include="ComputerScienceMonks\img\monksdifferentorders1.jpg" />
+    <Compile Include="ComputerScienceMonks\img\Normans_Bayeux.jpg" />
+    <Compile Include="ComputerScienceMonks\controller.php" />
+    <Compile Include="ComputerScienceMonks\createdb.php" />
+    <Compile Include="ComputerScienceMonks\index.php" />
+    <Compile Include="ComputerScienceMonks\loginWin.php" />
+    <Compile Include="ComputerScienceMonks\model.php" />
+    <Compile Include="ComputerScienceMonks\monkstyles.css" />
+    <Compile Include="ComputerScienceMonks\readme.txt" />
+    <Compile Include="ComputerScienceMonks\references.txt" />
+    <Compile Include="ComputerScienceMonks\view.php" />
+    <Compile Include=".gitattributes" />
+    <Compile Include=".gitignore" />
+    <Compile Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ComputerScienceMonks\img\" />
+    <Folder Include="ComputerScienceMonks" />
+  </ItemGroup>
+</Project>

@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "ComputerScienceMonks", "ComputerScienceMonks\ComputerScienceMonks.phpproj", "{05EB87D2-2A6A-4742-94E7-78479773FF63}"
+Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "ComputerScienceMonks", "ComputerScienceMonks.phpproj", "{A444820D-8FA6-4864-8654-C69C2D5C3135}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,13 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{05EB87D2-2A6A-4742-94E7-78479773FF63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{05EB87D2-2A6A-4742-94E7-78479773FF63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A444820D-8FA6-4864-8654-C69C2D5C3135}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A444820D-8FA6-4864-8654-C69C2D5C3135}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FE77A56F-5287-41C7-AE02-AE7BD9245D64}
 	EndGlobalSection
 EndGlobal
