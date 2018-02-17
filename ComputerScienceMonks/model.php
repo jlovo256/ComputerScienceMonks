@@ -83,7 +83,7 @@ ORDER BY ";
      * login information.  controller.php uses this method.
      */
     public static function connectDB() {
-        require_once 'loginWin.php';
+        require_once 'login.php';
             // PDO connection
             self::$conn = new PDO($device, $user, $password);
     } // end function connectDB
