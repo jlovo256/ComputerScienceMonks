@@ -7,8 +7,10 @@
     </RootNamespace>
     <OutputType>Library</OutputType>
     <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
-    <SpecificPageValue>ComputerScienceMonks/index.php</SpecificPageValue>
+    <SpecificPageValue>index.php</SpecificPageValue>
     <StartAction>SpecificPage</StartAction>
+    <Runtime>PHP</Runtime>
+    <RuntimeVersion>7.1</RuntimeVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <IncludeDebugInformation>true</IncludeDebugInformation>
@@ -17,23 +19,29 @@
     <IncludeDebugInformation>false</IncludeDebugInformation>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="ComputerScienceMonks\img\medievalmonks.jpg" />
-    <Compile Include="ComputerScienceMonks\img\monksdifferentorders1.jpg" />
-    <Compile Include="ComputerScienceMonks\img\Normans_Bayeux.jpg" />
+    <Compile Include="public\img\medievalmonks.jpg" />
+    <Compile Include="public\img\monksdifferentorders1.jpg" />
+    <Compile Include="public\img\Normans_Bayeux.jpg" />
     <Compile Include="ComputerScienceMonks\controller.php" />
     <Compile Include="ComputerScienceMonks\createdb.php" />
     <Compile Include="ComputerScienceMonks\index.php" />
     <Compile Include="ComputerScienceMonks\model.php" />
-    <Compile Include="ComputerScienceMonks\monkstyles.css" />
+    <Compile Include="public\styles\monkstyles.css" />
     <Compile Include="ComputerScienceMonks\readme.txt" />
     <Compile Include="ComputerScienceMonks\references.txt" />
     <Compile Include="ComputerScienceMonks\view.php" />
     <Compile Include=".gitattributes" />
     <Compile Include=".gitignore" />
+    <Compile Include="index.php" />
     <Compile Include="README.md" />
+    <Compile Include="views\main.php" />
+    <Compile Include="views\nav.php" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="ComputerScienceMonks\img\" />
+    <Folder Include="views\" />
+    <Folder Include="public\img\" />
     <Folder Include="ComputerScienceMonks" />
+    <Folder Include="public\" />
+    <Folder Include="public\styles\" />
   </ItemGroup>
 </Project>
