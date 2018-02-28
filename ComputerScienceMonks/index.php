@@ -1,3 +1,7 @@
+<?php
+namespace csmonks;
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -102,11 +106,12 @@
                         <div class="col">
                             <table class="table table-hover table-responsive">
 
-                                <!--students--><?php
+                                <!--students-->
+                                <?php
                                 require_once 'view.php';
                                 // this function from view will generate the students pane
                                 studentsPane();
-                                               ?>
+                                ?>
                             </table>
                         </div>
 
@@ -126,11 +131,12 @@
                         <div class="col">
                             <table class="table table-hover table-responsive">
 
-                                <!--courses--><?php
+                                <!--courses-->
+                                <?php
                                 require_once 'view.php';
                                 // this function from view will generate the courses pane
                                 coursesPane();
-                                              ?>
+                                ?>
 
                             </table>
                         </div>
@@ -151,11 +157,12 @@
                         <div class="col">
                             <table class="table table-hover table-responsive">
 
-                                <!--student/course information by student--><?php
+                                <!--student/course information by student-->
+                                <?php
                                 require_once 'view.php';
                                 // this function from view will generate the SCbyS pane
                                 bystudPane();
-                                                                            ?>
+                                ?>
 
                             </table>
                         </div>
@@ -176,7 +183,8 @@
                         <div class="col">
                             <table class="table table-hover table-responsive">
 
-                                <!--student/course information by department--><?php
+                                <!--student/course information by department-->
+                                <?php
                                 require_once 'view.php';
                                 // this function from view will generate the SCbyD pane
                                 bydeptPane();
@@ -193,7 +201,6 @@
 
         </div><!-- END ROW-->
 
-        <!-- END ROW -->
         <!-- BEGIN ROW-->
         <div class="row">
 

@@ -1,4 +1,5 @@
 <?php // model.php
+namespace csmonks;
 
 /**
  * model This class interacts with the database that the website will use to
@@ -6,7 +7,7 @@
  *
  * model This class has a private constructor so it cannot be instantiated.
  * It contains static strings holding mysqlqueries.  It interacts with createdb to create
- * tables in the database and insert usable data into them.  It is used by the 
+ * tables in the database and insert usable data into them.  It is used by the
  * controller.  All methods are static.
  *
  * @version 2.0
@@ -85,7 +86,7 @@ ORDER BY ";
     public static function connectDB() {
         require_once 'login.php';
             // PDO connection
-            self::$conn = new PDO($device, $user, $password);
+            self::$conn = new \PDO($device, $user, $password);
     } // end function connectDB
 
     /**

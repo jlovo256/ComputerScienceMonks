@@ -1,4 +1,5 @@
 <?php // createdb.php
+namespace csmonks;
 
 /**
  * createdb This class creates tables on an already created data

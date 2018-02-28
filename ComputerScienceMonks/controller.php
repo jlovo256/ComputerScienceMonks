@@ -1,4 +1,5 @@
 <?php // controller.php
+namespace csmonks;
 
 /**
  * controller The controller is the middle man between the model and the view

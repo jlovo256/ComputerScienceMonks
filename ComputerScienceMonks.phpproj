@@ -11,6 +11,9 @@
     <StartAction>SpecificPage</StartAction>
     <Runtime>PHP</Runtime>
     <RuntimeVersion>7.1</RuntimeVersion>
+    <EnvName>PHPDev</EnvName>
+    <PHPDevHostName>localhost</PHPDevHostName>
+    <PHPDevAutoPort>true</PHPDevAutoPort>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <IncludeDebugInformation>true</IncludeDebugInformation>
@@ -19,6 +22,7 @@
     <IncludeDebugInformation>false</IncludeDebugInformation>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="app.php" />
     <Compile Include="public\img\medievalmonks.jpg" />
     <Compile Include="public\img\monksdifferentorders1.jpg" />
     <Compile Include="public\img\Normans_Bayeux.jpg" />
@@ -34,6 +38,9 @@
     <Compile Include=".gitignore" />
     <Compile Include="index.php" />
     <Compile Include="README.md" />
+    <Compile Include="views\404.php" />
+    <Compile Include="views\about.php" />
+    <Compile Include="views\home.php" />
     <Compile Include="views\main.php" />
     <Compile Include="views\nav.php" />
   </ItemGroup>

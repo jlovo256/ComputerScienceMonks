@@ -1,4 +1,5 @@
 <?php // view.php
+namespace csmonks;
 
 /**
  * view The view generates html for index.php, using data retrieved through

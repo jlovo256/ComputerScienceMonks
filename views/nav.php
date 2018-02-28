@@ -1,6 +1,7 @@
 <?php // nav.php
+namespace csmonks;
 
-function navview()
+function nav()
 {
 
     $html = <<<HTML
